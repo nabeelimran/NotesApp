@@ -8,7 +8,6 @@ const addNote = (title, body) => {
     const notes = loadNotes()
     const dupNote = notes.find( note =>  note.title === title )
 
-    debugger
     if(!dupNote){
         notes.push({title,body});
         saveNotes(notes);
