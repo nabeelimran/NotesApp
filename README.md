@@ -16,6 +16,8 @@
 
 ## ***Usage***
 
+First of all run ***npm install*** while in the app directory to install dependencies.
+
 ***Add a note***
 
     node app.js add --title="dummy title" --body="dummy body"
